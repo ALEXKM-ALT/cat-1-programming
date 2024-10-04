@@ -1,0 +1,20 @@
+//program to calculate simple intrest
+#include<stdio.h>
+int main(){
+    //declaring and initialization
+    float principle, rate, time, intrest;
+    Printf("enter principal intrest");
+    scanf("%f",&principle);
+    printf("enter rate in %form");
+    scanf("%f",&rate);
+    printf("enter time in years")
+    scanf("%f",&time);
+    // formula to calculate simple intrest
+    intrest = (principle * rate *time);
+    // formula to calculate simple intrest
+    intrest=(principle*rate*time)/100
+    // print intrest
+    printf("simple intrest is %f\n", intrest);
+    
+    return 0;
+}
